@@ -1,13 +1,13 @@
 {
   "name": "vue-router-smart-scroll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A vue-router plugin that enables configurable recall of scroll positions when visiting routes.",
   "keywords": ["vue-router", "scroll", "saved position", "scrollBehavior"],
   "homepage": "https://github.com/aariacarterweir/vue-router-smart-scroll",
   "bugs": "https://github.com/aariacarterweir/vue-router-smart-scroll/issues",
   "license": "MIT",
   "author": "Aaria Carter-Weir",
-  "browser": "plugin.js",
+  "main": "plugin.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/aariacarterweir/vue-router-smart-scroll.git"
