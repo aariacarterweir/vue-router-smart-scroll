@@ -2,17 +2,40 @@
   "name": "vue-router-smart-scroll",
   "version": "0.1.1",
   "description": "A vue-router plugin that enables configurable recall of scroll positions when visiting routes.",
-  "keywords": ["vue-router", "scroll", "saved position", "scrollBehavior"],
+  "keywords": [
+    "vue-router",
+    "scroll",
+    "saved position",
+    "scrollBehavior"
+  ],
+  "browserslist": [
+    "defaults",
+    "Safari 11",
+    "Safari 10"
+  ],
+  "scripts": {
+    "mix": "cross-env-shell node_modules/webpack/bin/webpack.js --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "install": "cross-env NODE_ENV=production yarn run mix"
+  },
+  "main": "dist/plugin.js",
   "homepage": "https://github.com/aariacarterweir/vue-router-smart-scroll",
   "bugs": "https://github.com/aariacarterweir/vue-router-smart-scroll/issues",
   "license": "MIT",
   "author": "Aaria Carter-Weir",
-  "main": "plugin.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/aariacarterweir/vue-router-smart-scroll.git"
+    "type": "git",
+    "url": "https://github.com/aariacarterweir/vue-router-smart-scroll.git"
   },
   "dependencies": {
-    "lodash": "^4.17.14"
+    "@babel/parser": "7.9.6",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.2",
+    "event-propagation-path": "^1.0.5",
+    "laravel-mix": "^5.0.4",
+    "lodash": "^4.17.15",
+    "vue-template-compiler": "^2.6.10"
   }
 }
