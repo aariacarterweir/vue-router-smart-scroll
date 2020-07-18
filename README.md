@@ -5,8 +5,10 @@ A vue-router plugin that enables configurable recall of scroll positions when vi
 This plugin supports Vue version 2 and is written in ES6. You will need a transpiler to run this plugin on older browsers.
 
 ### Installation
-`yarn add vue-router-smart-scroll`  
-`npm install vue-router-smart-scroll`
+```
+yarn add vue-router-smart-scroll
+npm install vue-router-smart-scroll
+```
 
 ### Usage
 "Install" this plugin to an existing router instance like so:
